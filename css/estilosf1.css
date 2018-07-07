@@ -1,0 +1,14 @@
+#datos{
+	display: none;
+}
+#barra{
+	
+	animation: precarga 10s;
+}
+
+@keyframes precarga{
+	100%{
+		width: 100%;
+	}
+
+}

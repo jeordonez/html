@@ -1,0 +1,43 @@
+
+body{
+background-color: #E0EE49
+}
+
+img{
+	-webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
+
+div{
+	margin: 0 auto;
+	text-align: left;
+	width: 200px;
+
+	text-align: center;
+    position: relative;
+    animation-name: anima;
+    animation-duration: 15s;
+}
+
+@keyframes anima {
+    0%   {left:0px; top:0px;}
+    5%  {left:0px; top:0px;}
+    10%  {left:0px; top:0px;}
+    15%  {left:0px; top:200px;}
+    20% {left:0px; top:0px;}
+    25%   {left:0px; top:0px;}
+    30%  {left:200px; top:0px;}
+    35%  {left:200px; top:200px;}
+    40%  {left:0px; top:200px;}
+    45% {left:0px; top:0px;}
+    50%   {left:0px; top:0px;}
+    55%  {left:200px; top:0px;}
+    60%  {left:200px; top:200px;}
+    65%  {left:0px; top:200px;}
+    70% {left:0px; top:0px;}
+    75%   {left:0px; top:0px;}
+    80%  {left:200px; top:0px;}
+    85%  {left:200px; top:200px;}
+    90%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}

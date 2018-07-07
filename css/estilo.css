@@ -1,0 +1,85 @@
+.contenedor{
+	width: 80%;
+	max-width:900px;
+	margin:0 auto;
+	background:#FFFFFF;
+	overflow: hidden;
+}
+.principal{
+	width:70%;
+	background:#FFFFFF;
+	padding:20px;
+	float:left;
+	box-sizing:border-box;
+}
+aside{
+	width:30%;
+	background:#FFFFFF;
+	padding:20px;
+	float:left;
+	box-sizing:border-box;
+}
+footer{
+	width:100%;
+	background:#FFFFFF;
+	padding:20px;
+	float:left;
+	box-sizing:border-box;
+	text-align: center;
+}
+.menuitem {
+    list-style-type: none;
+}
+body{
+	background:#2E2E2E;
+}
+p{
+	text-align: justify;
+}
+h1, h2{
+	text-align:center;
+}
+
+#foto {
+	margin-left: 8px;
+    max-width: 100%;
+    max-height: 100%;
+    border:1px solid black;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 800px){
+	body {
+		background:#FFFFFF;
+	}
+	.principal{
+		width:100%;
+	}
+	aside{
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 470px){
+	.menuitem{
+		display: none;
+	}
+}
+@media screen and (min-width: 471px){
+	#iconos{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px){
+	dl, dd, dt, ul, li, ol, .contenedor, .principal, aside{
+		padding: 0px;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 245px){
+	#foto{
+		display: none;
+	}
+}

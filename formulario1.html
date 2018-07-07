@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="ui/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/estilosf1.css">
+		
+</head>
+<body>
+	<HEADER>
+		<div class="jumbotron text-center"><h1>Formulario</h1></div>
+	</HEADER>
+
+	<div class="container">
+		
+			<form action="">
+				<div class="form-group">
+					<label>Seleccione a quien envía:</label>
+					<select id="seleccion" class="form-control">
+					  <option class="list-group-item-success" value="jonathanordonez@gmail.com">Jonathan Ordoñez</option>
+					  <option class="list-group-item-success" value="pedrolopez@gmail.com">Pedro Lopez</option>
+					  <option class="list-group-item-success" value="mercedezubilla@gmail.com">Mercedes Ubilla</option>
+					  <option class="list-group-item-success" value="antonioguerrero@gmail.com">Antonio Guerrero</option>
+					</select>
+					<span id="spanselect" class="help-block"></span>
+				</div>
+
+				<div class="form-group">
+				  <label>Mensaje</label>
+				  <textarea id="mensaje" class="form-control" placeholder="Escriba su mensaje."></textarea>
+				  <span id="spanmensaje" class="help-block"></span>
+				</div>
+      		 <button id="abrirPopup" type="button" class="btn btn-primary">Enviar</button>
+			</form>
+	</div>
+
+
+    <div id="dialog">
+		
+		<div id="pro" class="progress">
+			<div id="barra" class="progress-bar progress-bar-info progress-bar-striped" role="progressbar">
+			</div>
+		</div>
+
+		<div id="datos" class="form-group">
+			<p>Se ha enviado el mensaje a: <label id="correo"></label></p>
+			<p>Hora de envío: <label id="hora"></label></p>
+		</div>
+	</div>
+
+	
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/validacion.js"></script>
+<script type="text/javascript" src="ui/jquery-ui.js"></script>
+</body>
+</html>
